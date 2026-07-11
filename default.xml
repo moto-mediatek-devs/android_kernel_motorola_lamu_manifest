@@ -59,6 +59,7 @@
   <!-- Motorola kernel -->
   <project path="kernel_device_modules-6.6" name="android_kernel_motorola_lamu-modules" remote="github" >
     <linkfile src="build.config.lamu" dest="build.config" />
+    <linkfile src="build_mgk_64_k66.sh" dest="build_mgk_64_k66.sh" />
   </project>
   <project path="vendor/mediatek/kernel_modules" name="android_kernel_motorola_lamu-mediatek_modules" remote="github" />
 </manifest>
