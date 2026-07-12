@@ -14,7 +14,7 @@
     <linkfile src="kleaf/bzlmod/bazel.MODULE.bazel" dest="MODULE.bazel" />
     <linkfile src="kleaf/bzlmod/bazel.WORKSPACE.bzlmod" dest="WORKSPACE.bzlmod" />
   </project>
-  <project path="build/bazel_mgk_rules" name="android_kernel_build_bazel_mgk_rules" remote="github" revision="refs/heads/lineage-23.2" sync-c="true" >
+  <project path="build/bazel_mgk_rules" name="LineageOS/android_kernel_build_bazel_mgk_rules" remote="github" revision="refs/heads/lineage-23.2" sync-c="true" >
     <linkfile src="kleaf/bazel.WORKSPACE" dest="WORKSPACE" />
   </project>
   <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" groups="ddk" />
@@ -60,9 +60,9 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="ddk"/>
 
   <!-- Motorola kernel -->
-  <project path="kernel_device_modules-6.6" name="android_kernel_motorola_lamu-modules" remote="github" revision="refs/heads/lineage-23.2" sync-c="true" >
+  <project path="kernel_device_modules-6.6" name="LineageOS/android_kernel_motorola_lamu-modules" remote="github" revision="refs/heads/lineage-23.2" sync-c="true" >
     <linkfile src="build.config.lamu" dest="build.config" />
     <linkfile src="build_mgk_64_k66.sh" dest="build_mgk_64_k66.sh" />
   </project>
-  <project path="vendor/mediatek/kernel_modules" name="android_kernel_motorola_lamu-mediatek_modules" remote="github" revision="refs/heads/lineage-23.2" sync-c="true" />
+  <project path="vendor/mediatek/kernel_modules" name="LineageOS/android_kernel_motorola_lamu-mediatek_modules" remote="github" revision="refs/heads/lineage-23.2" sync-c="true" />
 </manifest>
